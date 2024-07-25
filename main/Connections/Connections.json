@@ -1,0 +1,31 @@
+{
+  "8973a251-b5a5-48bc-81a5-d6b2a1e017c0": {
+    "appActions": [
+      "providers/PowerPlatform.Governance/Operations/Read",
+      "providers/PowerPlatform.Governance/Operations/Write"
+    ],
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/u/jayawan/releases/v1.0.1697/1.0.1697.3786/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {
+      "https://y5sx6.sharepoint.com/sites/AbhishekTeamSite": {
+        "dataSources": {
+          "Work": {
+            "tableName": "021bc111-bfa1-4bf1-985f-de46ea236611"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "Work"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "8973a251-b5a5-48bc-81a5-d6b2a1e017c0"
+  }
+}
