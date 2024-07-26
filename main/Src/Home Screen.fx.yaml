@@ -34,8 +34,8 @@
             Required: =false
             Update: =Value(DataCardValue50.Text)
             Width: =341
-            X: =2
-            Y: =0
+            X: =1
+            Y: =1
             ZIndex: =1
 
             DataCardKey50 As label:
@@ -125,7 +125,7 @@
             Required: =false
             Update: =DataCardValue51.SelectedItems
             Width: =341
-            X: =0
+            X: =3
             Y: =1
             ZIndex: =1
 
@@ -214,8 +214,8 @@
             Required: =false
             Update: =DataCardValue52.Text
             Width: =341
-            X: =1
-            Y: =1
+            X: =0
+            Y: =2
             ZIndex: =1
 
             DataCardKey52 As label:
@@ -306,8 +306,8 @@
             Required: =false
             Update: =DataCardValue53.Text
             Width: =341
-            X: =2
-            Y: =1
+            X: =1
+            Y: =2
             ZIndex: =1
 
             DataCardKey53 As label:
@@ -397,7 +397,7 @@
             Required: =false
             Update: =Value(DataCardValue54.Text)
             Width: =341
-            X: =0
+            X: =3
             Y: =2
             ZIndex: =1
 
@@ -488,8 +488,8 @@
             Required: =false
             Update: =Value(DataCardValue55.Text)
             Width: =341
-            X: =1
-            Y: =2
+            X: =0
+            Y: =3
             ZIndex: =1
 
             DataCardKey55 As label:
@@ -580,8 +580,8 @@
             Required: =false
             Update: =DataCardValue56.Text
             Width: =341
-            X: =2
-            Y: =2
+            X: =1
+            Y: =3
             ZIndex: =1
 
             DataCardKey56 As label:
@@ -666,8 +666,8 @@
             Fill: =RGBA(39, 113, 194, 1)
             Height: =50
             Width: =App.Width
-            X: =3
-            Y: =2
+            X: =0
+            Y: =4
             ZIndex: =1
 
         Category_DataCard3 As typedDataCard.comboBoxEditCard:
@@ -683,7 +683,7 @@
             Update: =DataCardValue66.Selected
             Width: =341
             X: =0
-            Y: =3
+            Y: =5
             ZIndex: =1
 
             DataCardKey66 As label:
@@ -769,11 +769,10 @@
             BorderStyle: =BorderStyle.Solid
             DisplayMode: =DisplayMode.Edit
             Fill: =RGBA(0, 0, 0, 0)
-            Height: |
-                =35
-            Width: =341
+            Height: =70
+            Width: =1023
             X: =1
-            Y: =3
+            Y: =5
             ZIndex: =1
 
         "'Report Type_DataCard3' As typedDataCard.comboBoxEditCard":
@@ -788,8 +787,8 @@
             Required: =false
             Update: =DataCardValue71.Selected
             Width: =341
-            X: =2
-            Y: =3
+            X: =0
+            Y: =6
             ZIndex: =1
 
             DataCardKey71 As label:
@@ -882,8 +881,8 @@
             Required: =false
             Update: =DataCardValue57.Value
             Width: =341
-            X: =3
-            Y: =3
+            X: =1
+            Y: =6
             ZIndex: =1
 
             DataCardKey57 As label:
@@ -960,8 +959,8 @@
             Required: =false
             Update: =DataCardValue58.Selected
             Width: =341
-            X: =0
-            Y: =4
+            X: =2
+            Y: =6
             ZIndex: =1
 
             DataCardKey58 As label:
@@ -1051,8 +1050,8 @@
             Required: =false
             Update: =DataCardValue59.Selected
             Width: =341
-            X: =1
-            Y: =4
+            X: =3
+            Y: =6
             ZIndex: =1
 
             DataCardKey59 As label:
@@ -1142,8 +1141,8 @@
             Required: =false
             Update: =DataCardValue60.Selected
             Width: =341
-            X: =2
-            Y: =4
+            X: =0
+            Y: =7
             ZIndex: =1
 
             DataCardKey60 As label:
@@ -1233,8 +1232,8 @@
             Required: =false
             Update: =DataCardValue61.Selected
             Width: =341
-            X: =3
-            Y: =4
+            X: =1
+            Y: =7
             ZIndex: =1
 
             DataCardKey61 As label:
@@ -1324,8 +1323,8 @@
             Required: =false
             Update: =DataCardValue62.Selected
             Width: =341
-            X: =0
-            Y: =5
+            X: =2
+            Y: =7
             ZIndex: =1
 
             DataCardKey62 As label:
@@ -1415,8 +1414,8 @@
             Required: =false
             Update: =DataCardValue63.Value
             Width: =341
-            X: =1
-            Y: =5
+            X: =3
+            Y: =7
             ZIndex: =1
 
             DataCardKey63 As label:
@@ -1488,8 +1487,8 @@
             Fill: =RGBA(39, 113, 194, 1)
             Height: =50
             Width: =App.Width
-            X: =2
-            Y: =5
+            X: =0
+            Y: =8
             ZIndex: =1
 
         "'T.Cost Profit/Loss_DataCard1' As typedDataCard.numberEditCard":
@@ -1504,8 +1503,8 @@
             Required: =false
             Update: =Value(DataCardValue64.Text)
             Width: =341
-            X: =3
-            Y: =6
+            X: =0
+            Y: =10
             ZIndex: =1
 
             DataCardKey64 As label:
@@ -1595,8 +1594,8 @@
             Required: =false
             Update: =Value(DataCardValue41.Text)
             Width: =341
-            X: =1
-            Y: =0
+            X: =0
+            Y: =1
             ZIndex: =2
 
             DataCardKey41 As label:
@@ -1686,8 +1685,8 @@
             Required: =false
             Update: =DataCardValue42.SelectedDate
             Width: =341
-            X: =3
-            Y: =0
+            X: =2
+            Y: =1
             ZIndex: =2
 
             DataCardKey42 As label:
@@ -1773,8 +1772,8 @@
             Required: =false
             Update: =Value(DataCardValue43.Text)
             Width: =341
-            X: =3
-            Y: =1
+            X: =2
+            Y: =2
             ZIndex: =2
 
             DataCardKey43 As label:
@@ -1864,8 +1863,8 @@
             Required: =false
             Update: =Value(DataCardValue46.Text)
             Width: =341
-            X: =3
-            Y: =5
+            X: =0
+            Y: =9
             ZIndex: =2
 
             DataCardKey46 As label:
@@ -1955,8 +1954,8 @@
             Required: =false
             Update: =Value(DataCardValue47.Text)
             Width: =341
-            X: =0
-            Y: =6
+            X: =1
+            Y: =9
             ZIndex: =2
 
             DataCardKey47 As label:
@@ -2046,8 +2045,8 @@
             Required: =false
             Update: =Value(DataCardValue48.Text)
             Width: =341
-            X: =1
-            Y: =6
+            X: =2
+            Y: =9
             ZIndex: =2
 
             DataCardKey48 As label:
@@ -2137,8 +2136,8 @@
             Required: =false
             Update: =Value(DataCardValue49.Text)
             Width: =341
-            X: =2
-            Y: =6
+            X: =3
+            Y: =9
             ZIndex: =2
 
             DataCardKey49 As label:
